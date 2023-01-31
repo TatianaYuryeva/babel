@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "core-js": "^3.27.2"
+  },
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatianaYuryeva/babel.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Tatiana Yuryeva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatianaYuryeva/babel/issues"
+  },
+  "homepage": "https://github.com/TatianaYuryeva/babel#readme"
+}
